@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+
+*/.idea/
+*/__pycache__/
+*/venv/
+*/.vs/
+*/Debug/
+*/Release/
+*/x64/
+*.vcxproj.user
