@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="AutoWSA.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketStream.cpp">
+      <Filter>Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerSocket.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="IPAddress.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="BufferUtils.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="ProtocolHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnFileOperation.cpp">
+      <Filter>Operations</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveFileOperation.cpp">
+      <Filter>Operations</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseProtocolOperation.cpp">
+      <Filter>Operations</Filter>
+    </ClCompile>
+    <ClCompile Include="FileStream.cpp">
+      <Filter>Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="GetFileListOperation.cpp">
+      <Filter>Operations</Filter>
+    </ClCompile>
+    <ClCompile Include="EraseFileOperation.cpp">
+      <Filter>Operations</Filter>
+    </ClCompile>
+    <ClCompile Include="TempFileStream.cpp">
+      <Filter>Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="RequestHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Network">
+      <UniqueIdentifier>{53c1d7fb-69cd-4d71-904a-597e3fc8f5d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stream">
+      <UniqueIdentifier>{656ad3ed-0973-483b-95f1-3f8a604ee650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{33db0a32-36be-41fd-9fd7-3fd283d4d24e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Handlers">
+      <UniqueIdentifier>{33a6f28f-4d15-482f-8c66-ea608184f8a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operations">
+      <UniqueIdentifier>{91dbcf26-19bf-4ec4-be07-d8a0f16df959}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AutoWSA.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketStream.h">
+      <Filter>Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerSocket.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Stream.h">
+      <Filter>Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="IPAddress.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferUtils.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtocolStructs.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="IProtocolOperation.h">
+      <Filter>Operations</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtocolHandler.h">
+      <Filter>Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="ReturnFileOperation.h">
+      <Filter>Operations</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveFileOperation.h">
+      <Filter>Operations</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseProtocolOperation.h">
+      <Filter>Operations</Filter>
+    </ClInclude>
+    <ClInclude Include="FileStream.h">
+      <Filter>Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="GetFileListOperation.h">
+      <Filter>Operations</Filter>
+    </ClInclude>
+    <ClInclude Include="EraseFileOperation.h">
+      <Filter>Operations</Filter>
+    </ClInclude>
+    <ClInclude Include="TempFileStream.h">
+      <Filter>Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="RequestHandler.h">
+      <Filter>Handlers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
